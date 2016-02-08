@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<welcome-file-list>
+		<welcome-file>inicio.do</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>inicio</servlet-name>
+		<servlet-class>view.Inicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>inicio</servlet-name>
+		<url-pattern>/inicio.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>preguntas</servlet-name>
+		<servlet-class>view.Preguntas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>preguntas</servlet-name>
+		<url-pattern>/preguntas.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ranking</servlet-name>
+		<servlet-class>view.Ranking</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ranking</servlet-name>
+		<url-pattern>/ranking.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>fin</servlet-name>
+		<servlet-class>view.Fin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fin</servlet-name>
+		<url-pattern>/fin.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>panelControl</servlet-name>
+		<servlet-class>view.PanelControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>panelControl</servlet-name>
+		<url-pattern>/panelControl.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>modificarRespuestas</servlet-name>
+		<servlet-class>view.ModificarRespuestas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarRespuestas</servlet-name>
+		<url-pattern>/modificarRespuestas.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>modificarRespuestasDos</servlet-name>
+		<servlet-class>view.ModificarRespuestasDos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarRespuestasDos</servlet-name>
+		<url-pattern>/modificarRespuestasDos.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>modificarPreguntas</servlet-name>
+		<servlet-class>view.ModificarPreguntas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarPreguntas</servlet-name>
+		<url-pattern>/modificarPreguntas.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>modificarPreguntasDos</servlet-name>
+		<servlet-class>view.ModificarPreguntasDos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificarPreguntasDos</servlet-name>
+		<url-pattern>/modificarPreguntasDos.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>administrador</servlet-name>
+		<servlet-class>view.Administrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>administrador</servlet-name>
+		<url-pattern>/administrador.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>crearPregunta</servlet-name>
+		<servlet-class>view.CrearPregunta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>crearPregunta</servlet-name>
+		<url-pattern>/crearPregunta.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>crearRespuesta</servlet-name>
+		<servlet-class>view.CrearRespuesta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>crearRespuesta</servlet-name>
+		<url-pattern>/crearRespuesta.do/*</url-pattern>
+	</servlet-mapping>	
+</web-app>

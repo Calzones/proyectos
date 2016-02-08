@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>comprar</servlet-name>
+		<servlet-class>servlets.Comprar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>comprar</servlet-name>
+		<url-pattern>/comprar.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>buscar</servlet-name>
+		<servlet-class>servlets.Buscar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>buscar</servlet-name>
+		<url-pattern>/buscar.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>cerrarSesion</servlet-name>
+		<servlet-class>servlets.CerrarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cerrarSesion</servlet-name>
+		<url-pattern>/cerrarSesion.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>borrar</servlet-name>
+		<servlet-class>servlets.Borrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>borrar</servlet-name>
+		<url-pattern>/borrar.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>contacto</servlet-name>
+		<servlet-class>servlets.Contacto</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>contacto</servlet-name>
+		<url-pattern>/contacto.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>arbustos</servlet-name>
+		<servlet-class>servlets.Arbustos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>arbustos</servlet-name>
+		<url-pattern>/arbustos.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>semillas</servlet-name>
+		<servlet-class>servlets.Semillas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>semillas</servlet-name>
+		<url-pattern>/semillas.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>modificar</servlet-name>
+		<servlet-class>servlets.Modificar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modificar</servlet-name>
+		<url-pattern>/modificar.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>mobiliario</servlet-name>
+		<servlet-class>servlets.Mobiliario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mobiliario</servlet-name>
+		<url-pattern>/mobiliario.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>registro</servlet-name>
+		<servlet-class>servlets.Registro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registro</servlet-name>
+		<url-pattern>/registro.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>perfil</servlet-name>
+		<servlet-class>servlets.Perfil</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>perfil</servlet-name>
+		<url-pattern>/perfil.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>arboles</servlet-name>
+		<servlet-class>servlets.Arboles</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>arboles</servlet-name>
+		<url-pattern>/arboles.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>utiles</servlet-name>
+		<servlet-class>servlets.Utiles</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>utiles</servlet-name>
+		<url-pattern>/utiles.do/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>servicios</servlet-name>
+		<servlet-class>servlets.Servicios</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servicios</servlet-name>
+		<url-pattern>/servicios.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>cesta</servlet-name>
+		<servlet-class>servlets.Cesta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cesta</servlet-name>
+		<url-pattern>/cesta.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>principal</servlet-name>
+		<servlet-class>servlets.Principal</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>principal</servlet-name>
+		<url-pattern>/principal.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>flores</servlet-name>
+		<servlet-class>servlets.Flores</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>flores</servlet-name>
+		<url-pattern>/flores.do/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>inicio</servlet-name>
+		<servlet-class>servlets.Inicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>inicio</servlet-name>
+		<url-pattern>/inicio.do/*</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>inicio.do</welcome-file>
+	</welcome-file-list>
+
+
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+

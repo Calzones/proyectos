@@ -1,0 +1,105 @@
+body{
+
+	background-color:#FFCC66;
+	font-family: Arial;
+}
+
+div{
+
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid;
+	border-color:#FF6600;
+	background-color:#FFFF99;
+	border-radius:10px;
+	
+  box-shadow: 2px 2px 5px #999;
+}
+
+h1{
+	
+	text-align: center;
+	color: #FF6600;
+	margin:auto;
+}
+
+#preguntas{
+	
+	align: left;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;
+	border:solid;
+	border-color:#FF6600;
+	background-color:#FFFF99;
+	border-radius:10px;
+}
+
+#modificar{
+
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width:25%;
+	border:solid;
+	border-color:#FF6600;
+	background-color:#FFFF99;
+	border-radius:10px;
+}
+
+#ranking{
+	
+	width:30%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid;
+	border-color:#FF6600;
+}
+
+table, th, td{
+	
+	margin: auto;
+	background-color:#FFFF99;
+	cell-spacing:2px;
+	border: 1px solid;
+    border-color: #FFFF99;
+    border-radius: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    border:solid;
+    border-color:#FFCC66;
+    background-color: #FFCC66;
+    border-radius:5px;
+}
+
+a:visited {
+
+    text-decoration: none;
+    border:solid;
+    border-color:#FFCC66;
+    background-color: #FFCC66;
+    border-radius:5px;  
+}
+
+a:hover {
+
+    text-decoration: none;
+    border:solid;
+    border-color:#FFCC66;
+    background-color: #FFCC66;
+    border-radius:5px;
+}
+
+a:active {
+
+    text-decoration: none;
+    border:solid;
+    border-color:#FFCC66;
+    background-color: #FFCC66;
+    border-radius:5px;
+}
